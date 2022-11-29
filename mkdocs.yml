@@ -1,0 +1,48 @@
+site_name: Європейська Солідарність Львівщини
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+theme:
+  name: material
+  language: uk
+  logo: assets/logo.png
+  palette:
+    primary: white
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+nav:
+  - Запитай свого депутата: index.md
+  - Designed by Sirkadirov: https://aka.sirkadirov.com/hello
+copyright: Copyright &copy; 2022, Львівська територіальна організація політичної партії «ЄВРОПЕЙСЬКА СОЛІДАРНІСТЬ». Усі права захищено.
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ESLviv
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/es_lviv_/
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
